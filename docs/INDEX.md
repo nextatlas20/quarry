@@ -11,33 +11,34 @@ team members.
 ### Getting Started
 | Page | Owner | Stability |
 | --- | --- | --- |
-| [Core Concepts](docs/getting-started/concepts.md) | docs-team | stable |
-| [Install Quarry](docs/getting-started/install.md) | platform-eng | stable |
-| [Quickstart: Your First Pipeline](docs/getting-started/quickstart.md) | platform-eng | stable |
+| [Core Concepts](docs/start/core-concepts.md) | docs-team | stable |
+| [Installing Quarry](docs/start/install.md) | platform-eng | stable |
+| [Quickstart: Your First Pipeline](docs/start/quickstart.md) | platform-eng | stable |
 
 ### Guides
 | Page | Owner | Stability |
 | --- | --- | --- |
-| [Backfill Runs](docs/guides/backfills.md) | operations | beta |
-| [Batch Ingestion](docs/guides/batch-ingest.md) | data-platform | stable |
+| [Backfill Runs](docs/guides/backfills.md) | operations | experimental |
+| [Batch Ingestion](docs/guides/batch-ingestion.md) | data-platform | stable |
+| [Record Deduplication](docs/guides/deduplication.md) | analytics-eng | beta |
+| [Schema Evolution](docs/guides/schema-evolution.md) | data-platform | stable |
 | [Schema Registry Setup](docs/guides/schema-registry.md) | data-platform | stable |
-| [Streaming Ingestion](docs/guides/stream-ingest.md) | data-platform | beta |
+| [Streaming Ingestion](docs/guides/streaming-ingestion.md) | data-platform | beta |
 | [Transforms and Enrichment](docs/guides/transforms.md) | analytics-eng | beta |
 
 ### Operations
 | Page | Owner | Stability |
 | --- | --- | --- |
 | [Cluster Upgrades](docs/operations/upgrades.md) | sre | beta |
+| [Incident Runbook](docs/operations/incident-runbook.md) | sre | stable |
 | [Monitoring Pipelines](docs/operations/monitoring.md) | sre | stable |
 | [Retention and Archival](docs/operations/retention.md) | sre | stable |
-| [Troubleshooting Guide](docs/operations/troubleshooting.md) | sre | stable |
 
 ### Reference
 | Page | Owner | Stability |
 | --- | --- | --- |
 | [CLI Reference](docs/reference/cli.md) | core-runtime | stable |
 | [Configuration Reference](docs/reference/config.md) | core-runtime | stable |
-| [Glossary](docs/reference/glossary.md) | docs-team | stable |
 | [HTTP API Reference](docs/reference/api.md) | core-runtime | stable |
 <!-- END CATALOG -->
 
@@ -48,13 +49,11 @@ change when a page moves. Resolve them against the page tree of the branch you a
 working on.
 
 <!-- BEGIN PATHS -->
-1. **Install** — `install`
-2. **First pipeline** — `quickstart`
-3. **Mental model** — `concepts`
-4. **Streaming** — `stream-ingest`
-5. **Day-two operations** — `monitoring`
-6. **When things break** — `troubleshooting`
-7. **Terminology** — `glossary`
+1. **Install** — [Installing Quarry](docs/start/install.md)
+2. **First pipeline** — [Quickstart: Your First Pipeline](docs/start/quickstart.md)
+3. **Mental model** — [Core Concepts](docs/start/core-concepts.md)
+4. **Streaming** — [Streaming Ingestion](docs/guides/streaming-ingestion.md)
+5. **Day-two operations** — [Monitoring Pipelines](docs/operations/monitoring.md)
 <!-- END PATHS -->
 
 ## Maintaining this index
