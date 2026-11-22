@@ -1,6 +1,6 @@
 ---
 id: "install"
-title: "Install Quarry"
+title: "Installing Quarry"
 owner: "platform-eng"
 section: "Getting Started"
 status: "published"

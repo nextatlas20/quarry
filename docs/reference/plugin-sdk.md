@@ -1,6 +1,6 @@
 ---
 id: "plugin-sdk"
-title: "Plugin SDK (Draft)"
+title: "Plugin SDK"
 owner: "core-runtime"
 section: "Reference"
 status: "draft"
