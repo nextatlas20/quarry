@@ -1,0 +1,5 @@
+[project]
+name = "quarry-toolkit"
+version = "4.2.3"
+description = "Schema-aware ingestion toolkit"
+requires-python = ">=3.10"
